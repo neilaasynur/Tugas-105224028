@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //Neila Faaizah Asynur 105224028
-
+// link github : https://github.com/neilaasynur/Tugas-105224028/blob/main/Tugas2/src/Tugas2.java
 public class Tugas2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -59,7 +59,7 @@ public class Tugas2 {
                 hasil[i] = "Tidak Lulus";
             }
         }
-        
+
         System.out.println("\n--- HASIL ANALISIS ---");
         for (int i = 0; i < jumlah; i++) {
             System.out.println("Nilai mahasiswa ke-" + (i + 1) + ": " + nilaiMahasiswa[i] + " (" + hasil[i] + ")");

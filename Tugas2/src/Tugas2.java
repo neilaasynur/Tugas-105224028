@@ -59,6 +59,7 @@ public class Tugas2 {
                 hasil[i] = "Tidak Lulus";
             }
         }
+        
         System.out.println("\n--- HASIL ANALISIS ---");
         for (int i = 0; i < jumlah; i++) {
             System.out.println("Nilai mahasiswa ke-" + (i + 1) + ": " + nilaiMahasiswa[i] + " (" + hasil[i] + ")");
